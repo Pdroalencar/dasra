@@ -1,0 +1,34 @@
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.match-list {
+  display: grid;
+  gap: 20px;
+}
+
+.match-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.status {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.status.live {
+  background-color: #ff4136;
+  color: white;
+}
+
+.status.upcoming {
+  background-color: #0074D9;
+  color: white;
+}

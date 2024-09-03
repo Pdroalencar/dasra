@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Página de E-Sports</title>
+</head>
+<body>
+    <!-- Menu Superior -->
+    <header class="navbar">
+        <div class="logo">
+            <a href="#">E-Sports</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="tab-link" data-target="csgo-section">CS:GO</a></li>
+                <li><a href="#" class="tab-link" data-target="lol-section">League of Legends</a></li>
+                <li><a href="#" class="tab-link" data-target="valorant-section">Valorant</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de Destaques -->
+    <section class="highlight">
+        <div class="highlight-content">
+            <h2>Notícia ou Partida em Destaque</h2>
+            <p>Detalhes sobre a partida ou notícia mais recente.</p>
+        </div>
+    </section>
+
+    <!-- Seção Principal -->
+    <main class="main-content">
+        <div class="sidebar">
+            <h3>Próximas Partidas</h3>
+            <ul>
+                <li class="match-item">CS:GO - Natus Vincere vs Astralis</li>
+                <li class="match-item">League of Legends - SKT T1 vs G2 Esports</li>
+                <li class="match-item">Valorant - Team Liquid vs Fnatic</li>
+            </ul>
+        </div>
+        
+        <!-- Seções de Jogos -->
+        <div id="csgo-section" class="news-section active">
+            <div class="news-card">
+                <img src="csgo.jpg" alt="Imagem CS:GO">
+                <div class="news-info">
+                    <h2>CS:GO: Campeonato Mundial</h2>
+                    <p>Resumo da notícia...</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="lol-section" class="news-section">
+            <div class="news-card">
+                <img src="lol.jpg" alt="Imagem LoL">
+                <div class="news-info">
+                    <h2>LoL: MSI Tournament</h2>
+                    <p>Resumo da notícia...</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="valorant-section" class="news-section">
+            <div class="news-card">
+                <img src="valorant.jpg" alt="Imagem Valorant">
+                <div class="news-info">
+                    <h2>Valorant: Champions Tour</h2>
+                    <p>Resumo da notícia...</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
